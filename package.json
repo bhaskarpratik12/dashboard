@@ -1,0 +1,78 @@
+{
+  "name": "gulp-es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nrvarun/gulp-es6",
+  "author": "Varun",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "serve": "gulp"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "jquery": "./src/js/plugins/jquery.min.js",
+    "aos": "global:AOS"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "browserify-shim": "^3.8.14",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "glob-all": "^3.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^4.0.2",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-stylelint": "^6.0.0",
+    "postcss-bem-linter": "^3.1.0",
+    "postcss-reporter": "^5.0.0",
+    "postcss-scss": "^1.0.3",
+    "postcss-uncss": "^0.16.1",
+    "rimraf": "^2.6.2",
+    "stylelint": "^9.0.0",
+    "stylelint-config-recommended-scss": "^3.0.0",
+    "stylelint-config-sass-guidelines": "^4.1.0",
+    "stylelint-config-standard": "^18.1.0",
+    "stylelint-formatter-pretty": "^1.0.3",
+    "stylelint-scss": "^2.3.0",
+    "uncss": "^0.16.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-batch": "^1.0.5",
+    "gulp-browserify": "^0.5.1",
+    "gulp-changed": "^3.1.0",
+    "gulp-csso": "^3.0.0",
+    "gulp-filter": "^5.0.0",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-pug-inheritance": "^0.2.1",
+    "gulp-purifycss": "^0.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11",
+    "snapsvg": "^0.5.1",
+    "uglify": "^0.1.5",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

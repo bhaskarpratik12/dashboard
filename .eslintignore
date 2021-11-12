@@ -1,0 +1,6 @@
+build/**/*.js
+dist/**/*.js
+static/**/*.js
+scripts/**/*.js
+src/js/plugins/**/*.js
+gulpfile.babel.js
